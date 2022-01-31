@@ -4,5 +4,19 @@ body{
 
 .navigation_main{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding: 4px;
+}
+h1{
+    text-align: center;
+}
+li{
+    list-style-type: none;
 }
